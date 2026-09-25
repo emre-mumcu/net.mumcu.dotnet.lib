@@ -4,6 +4,34 @@
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+
+        <!-- NuGet -->
+        <PackageId>net.mumcu.dotnet.lib</PackageId>
+
+        <Version>1.0.0</Version>
+
+        <Authors>Emre Mumcu</Authors>
+
+        <Description>My common .NET libraries and utilities.</Description>
+
+        <PackageTags>dotnet;common;utilities;helpers</PackageTags>
+
+        <RepositoryUrl>https://github.com/USERNAME/MyLibraries</RepositoryUrl>
+
+        <RepositoryType>git</RepositoryType>
+
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <!-- NuGet -->
+
     </PropertyGroup>
-    
+
+    <ItemGroup>
+        <None Include="README.md"
+            Pack="true"
+            PackagePath="\" />
+        <None Include="LICENSE"
+            Pack="true"
+            PackagePath="\" />
+    </ItemGroup>
+
 </Project>
